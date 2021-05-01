@@ -1,5 +1,6 @@
 package com.amdroid.todo_4;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -33,6 +34,15 @@ public class MainActivity extends AppCompatActivity
         mReplyTextView = findViewById(R.id.text_message_reply);
         Log.d(LOG_TAG, "---------");
         Log.d(LOG_TAG, "onCreate");
+
+        if (savedInstanceState != null) {
+            boolean isVisible = savedInstanceState.getBoolean("reply_state");
+            if (isVisible){
+                mReplyHeadTextView.setVisibility(View.VISIBLE);
+                mReplyTextView.setText(savedInstanceState.getString("reply_state_message"));
+                mReplyTextView.setVisibility(View.VISIBLE);
+            }
+        }
     }
 
     @Override
@@ -70,6 +80,15 @@ public class MainActivity extends AppCompatActivity
     public void onRestart() {
         super.onRestart();
         Log.d(LOG_TAG, "onRestart");
+    }
+
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState){
+        super.onSaveInstanceState(outState);
+        if(mReplyHeadTextView.getVisibility()==View.VISIBLE){
+            outState.putBoolean("reply_state",true);
+            outState.putString("reply_state_message",mReplyTextView.getText().toString());
+        }
     }
 
 

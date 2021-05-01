@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtintro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Droid Desserts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-2dp"
+        android:fontFamily="cursive"
+        android:textSize="40sp"
+        android:textStyle="bold"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/donut_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/txtintro"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:onClick="Donut"
+        android:src="@drawable/donut" />
+
+    <TextView
+        android:id="@+id/donut_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@+id/donut_view"
+        android:layout_toRightOf="@+id/donut_view"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/donut"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icecream"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/donut_view"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="24dp"
+        android:onClick="Icecream"
+        android:src="@drawable/icecream" />
+
+    <TextView
+        android:id="@+id/icecream_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="280dp"
+        android:layout_toEndOf="@+id/icecream"
+        android:layout_toRightOf="@+id/icecream"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/icecream"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/froyo_view"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/icecream"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/froyo"
+        android:onClick="Froyo"
+        android:layout_marginLeft="15dp"
+        />
+
+    <TextView
+        android:id="@+id/froyo_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="480dp"
+        android:layout_toEndOf="@+id/froyo_view"
+        android:layout_toRightOf="@+id/froyo_view"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/froyo"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/froyo_des"
+        android:clickable="true"
+        android:layout_marginTop="90dp"
+        android:onClick="Call"
+        app:srcCompat="@android:drawable/stat_sys_phone_call_forward" />
+
+
+</RelativeLayout>

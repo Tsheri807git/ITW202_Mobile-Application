@@ -1,0 +1,61 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="E7AA4F70-A0CD-4730-AF6E-BC22A250526B" platform="MtMobile" defaultW="360" defaultH="640" measureW="360" measureH="640" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="6">
+    <control controlID="9E47D2DD-561A-426F-8308-2204D12CDF9F" controlTypeID="NavigationBar" x="0" y="592" w="360" h="48" zOrder="0"/>
+    <control controlID="F9E0C80E-9210-4459-861C-91B97D91A903" controlTypeID="StatusBar(Android)" x="0" y="0" w="360" h="20" zOrder="1"/>
+    <control controlID="5B67B28D-3047-4096-B9C1-931E2F82105D" controlTypeID="Image" x="0" y="20" w="360" h="106" zOrder="2">
+      <URL>D205A70381A80C3AE559E949DB11901A.jpg</URL>
+    </control>
+    <control controlID="06C1AE8C-EDE9-4DD9-BF02-7CDDD7289DFC" controlTypeID="Button" x="111" y="216" w="120" h="48" zOrder="3">
+      <color>4278216447</color>
+      <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="6F0B94BE-3992-4182-BE39-36EF428B99E8" linkType="ltPageLink" isApplyIncludePage="False" title="Page1">
+          <area shape="0" alt="" ID="{BCCA88F6-F93B-4E12-9A19-C4341CA9D406}" coords="(0,0,120,48)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Personal+Details</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <radius>100</radius>
+      <radiusIsPercent>True</radiusIsPercent>
+    </control>
+    <control controlID="0B9B9ED7-F3D6-446A-96F0-2DDF15D141F8" controlTypeID="Button" x="111" y="338" w="120" h="48" zOrder="4">
+      <color>4278216447</color>
+      <borderVisible>False</borderVisible>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="6E599BD8-DFE7-4031-9AF4-4039F4E9CAD8" linkType="ltPageLink" isApplyIncludePage="False" title="Page2">
+          <area shape="0" alt="" ID="{C10F673B-35D7-4F06-B3C5-FDC73199E9BB}" coords="(0,0,120,48)"/>
+        </link>
+      </links>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Household+Details</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <radius>100</radius>
+      <radiusIsPercent>True</radiusIsPercent>
+    </control>
+    <control controlID="44C7445D-7AA4-4B83-BF06-2B1AD4A2F484" controlTypeID="Button" x="111" y="461" w="120" h="48" zOrder="5">
+      <color>4278216447</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Family+Tree</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+      <radius>100</radius>
+      <radiusIsPercent>True</radiusIsPercent>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>
