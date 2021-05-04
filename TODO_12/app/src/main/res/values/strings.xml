@@ -6,4 +6,13 @@
     <string name="order1">You have ordered an donut.</string>
     <string name="order2">You have ordered an icecream sandwich.</string>
     <string name="order3">You have ordered an froyo.</string>
+    <string name="sday">Sameday messanger service</string>
+    <string name="nday">Nextday dround delivery</string>
+    <string name="pkup">Pickup</string>
+    <string-array name="Label_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Mobile</item>
+        <item>Other</item>
+    </string-array>
 </resources>

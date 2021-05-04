@@ -96,15 +96,16 @@
         android:textStyle="bold" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/call"
+        android:id="@+id/order"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_below="@+id/froyo_des"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="115dp"
+        android:layout_toRightOf="@+id/froyo_view"
         android:clickable="true"
-        android:layout_marginTop="90dp"
-        android:onClick="Call"
-        app:srcCompat="@android:drawable/stat_sys_phone_call_forward" />
+        android:onClick="Shopping"
+        app:src="@drawable/shoping" />
 
 
 </RelativeLayout>
