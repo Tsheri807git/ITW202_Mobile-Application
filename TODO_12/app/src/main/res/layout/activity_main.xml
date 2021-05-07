@@ -4,40 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:padding="20dp"
     tools:context=".MainActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.TODO_12.PopupOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/design_default_color_primary"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
     <TextView
-        android:id="@+id/txtintro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Droid Desserts"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="-2dp"
         android:fontFamily="cursive"
+        android:text="@string/droid_desserts"
         android:textSize="40sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/donut_view"
+        android:id="@+id/donut"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_below="@+id/txtintro"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="50dp"
         android:onClick="Donut"
         android:src="@drawable/donut" />
 
     <TextView
-        android:id="@+id/donut_des"
+        android:id="@+id/txtDonut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="110dp"
-        android:layout_marginLeft="15dp"
-        android:layout_toEndOf="@+id/donut_view"
-        android:layout_toRightOf="@+id/donut_view"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/donut"
         android:fontFamily="cursive"
         android:gravity="center"
         android:text="@string/donut"
@@ -45,50 +52,44 @@
         android:textStyle="bold" />
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/icecream"
+        android:id="@+id/sandwich"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_below="@+id/donut_view"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="24dp"
-        android:onClick="Icecream"
-        android:src="@drawable/icecream" />
+        android:layout_below="@+id/donut"
+        android:layout_marginTop="22dp"
+
+        android:onClick="Sandwich"
+        android:src="@drawable/sandwich" />
 
     <TextView
-        android:id="@+id/icecream_des"
+        android:id="@+id/textsandwich"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="280dp"
-        android:layout_toEndOf="@+id/icecream"
-        android:layout_toRightOf="@+id/icecream"
-        android:gravity="center"
+        android:layout_below="@+id/donut"
+        android:layout_marginTop="40dp"
+        android:layout_toEndOf="@+id/sandwich"
         android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/sandwich"
         android:textSize="20sp"
-        android:textStyle="bold"
-        android:text="@string/icecream"/>
+        android:textStyle="bold" />
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/froyo_view"
+        android:id="@+id/froyo"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:layout_below="@+id/icecream"
-        android:layout_marginTop="24dp"
-        android:src="@drawable/froyo"
+        android:layout_below="@+id/sandwich"
+        android:layout_marginTop="22dp"
         android:onClick="Froyo"
-        android:layout_marginLeft="15dp"
-        />
+        android:src="@drawable/froyo" />
 
     <TextView
-        android:id="@+id/froyo_des"
+        android:id="@+id/textfroyo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginLeft="15dp"
-        android:layout_marginTop="480dp"
-        android:layout_toEndOf="@+id/froyo_view"
-        android:layout_toRightOf="@+id/froyo_view"
+        android:layout_below="@+id/sandwich"
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@+id/froyo"
         android:fontFamily="cursive"
         android:gravity="center"
         android:text="@string/froyo"
@@ -96,16 +97,14 @@
         android:textStyle="bold" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/order"
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/froyo_des"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="115dp"
-        android:layout_toRightOf="@+id/froyo_view"
-        android:clickable="true"
-        android:onClick="Shopping"
-        app:src="@drawable/shoping" />
+        android:layout_below="@id/textfroyo"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/ic_baseline_shopping_cart_24"
+        android:contentDescription="@string/todo" />
 
 
 </RelativeLayout>
