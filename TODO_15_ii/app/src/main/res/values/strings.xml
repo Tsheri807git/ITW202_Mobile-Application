@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TODO_15_ii</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">My App</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="hello_world">hello world</string>
+    <string name="nav_import">Selected import</string>
+    <string name="nav_gallery">Selected gallery</string>
+    <string name="nav_slideshow">Selected slideshow</string>
+    <string name="nav_tools">Selected tools</string>
+    <string name="nav_share">Selected share</string>
+    <string name="nav_sent">Selected sent</string>
+</resources>

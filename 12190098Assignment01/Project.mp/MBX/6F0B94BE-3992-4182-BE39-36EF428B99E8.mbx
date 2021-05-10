@@ -1,0 +1,83 @@
+﻿<mockup version="5.3" minAllowVersion="5.3" ID="6F0B94BE-3992-4182-BE39-36EF428B99E8" platform="MtMobile" defaultW="360" defaultH="640" measureW="360" measureH="640" screenOrientation="MoPortrait" mobileScreenScale="1.77777779102325" clipArea="(0,0,0,0)">
+  <controls controlCount="13">
+    <control controlID="0AAFDB53-3243-40EB-BE08-27E232FDCCCC" controlTypeID="StatusBar(Android)" x="0" y="0" w="360" h="20" zOrder="0"/>
+    <control controlID="411A45B9-F0C4-41DE-A214-4D8009BDD8B1" controlTypeID="NavigationBar" x="0" y="592" w="360" h="48" zOrder="1"/>
+    <control controlID="6606B468-0657-4AF3-8F2F-EF73E4F32C54" controlTypeID="Image" x="0" y="20" w="360" h="104" zOrder="2">
+      <URL>D205A70381A80C3AE559E949DB11901A.jpg</URL>
+    </control>
+    <control controlID="F47BEE9B-CF3D-4865-9EF9-1085C4AEFBFE" controlTypeID="TextInput" x="166" y="242" w="160" h="24" zOrder="3">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="9EE46C62-AD11-4AB5-B9A0-DB6CE067140B" controlTypeID="Button" x="-2" y="124" w="360" h="48" zOrder="4">
+      <color>4278229503</color>
+      <borderVisible>False</borderVisible>
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False" useDefaultFontFamily="False"/>
+      <text>Personal+Details</text>
+      <textColor>4294967295</textColor>
+      <textSize>12</textSize>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="2EFFCE0E-BB46-4138-9067-147441F72577" controlTypeID="Label" x="20" y="242" w="44" h="19" zOrder="5">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Name+%3A</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="E829CD73-3684-49B2-AB4D-F5827512100C" controlTypeID="TextInput" x="166" y="281" w="160" h="24" zOrder="6">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="4C284709-BB5C-4B7D-A913-A9295DCD2CD9" controlTypeID="Label" x="20" y="286" w="35" h="19" zOrder="7">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>DOB+%3A</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="405BF445-304C-452E-8491-42B11169AE28" controlTypeID="Label" x="20" y="337" w="91" h="19" zOrder="8">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Gewog+Name+%3A</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="492CD94F-F363-424B-B0A3-04220C2C0B3F" controlTypeID="TextInput" x="166" y="337" w="160" h="24" zOrder="9">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="14C7B797-C968-41B5-BB4C-C4967F3FBE7D" controlTypeID="TextInput" x="166" y="398" w="160" h="24" zOrder="10">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="13AF4C3D-54B3-4D36-B9EA-2E79C0794B9A" controlTypeID="Label" x="20" y="403" w="118" h="19" zOrder="11">
+      <font family="Segoe+UI" displayName="Segoe+UI" postScript="" weightStyle="Regular" weight="400" isBold="False" isItalic="False"/>
+      <text>Dzongkhag+Name+%3A</text>
+      <lineSpacing>0</lineSpacing>
+      <selectedIndex>-1</selectedIndex>
+    </control>
+    <control controlID="C50B286F-EDED-4EA6-84A8-FEBEC1D271B8" controlTypeID="Icon" x="5" y="127" w="45" h="45" zOrder="12">
+      <color>4284874803</color>
+      <links eventType="AtClick" animate="AmNone" animateAutoDelay="0" animateDuration="500">
+        <link targetPageID="E7AA4F70-A0CD-4730-AF6E-BC22A250526B" linkType="ltPageLink" isApplyIncludePage="False" title="Page">
+          <area shape="0" alt="" ID="{B410BCE9-0A66-4124-8E9A-58B51913952D}" coords="(0,0,45,45)"/>
+        </link>
+      </links>
+      <icon>
+        <ID/>
+        <iconFontName>jdIonicons</iconFontName>
+        <iconCode>61703</iconCode>
+      </icon>
+      <URL>174DDA6EA0625ECE503B6EAC65F79679.svg</URL>
+    </control>
+  </controls>
+  <param>
+    <backgroundColor>4294967295</backgroundColor>
+    <fontSize>0</fontSize>
+    <fontFamily/>
+    <guideLines/>
+  </param>
+</mockup>

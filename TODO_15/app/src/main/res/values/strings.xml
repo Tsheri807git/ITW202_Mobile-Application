@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TODO_15</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">These are the top stories:</string>
+    <string name="fragment2">Tech News you can use : </string>
+    <string name="fragment3">Cooking tips :</string>
+    <string name="tab1">Top Stories</string>
+    <string name="tab2">Tech News</string>
+    <string name="tab3">Cooking</string>
+
+</resources>
