@@ -1,6 +1,7 @@
 package gcit.edu.todo_18;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -14,12 +15,14 @@ public class MainActivity extends AppCompatActivity {
     private ArrayList<Sport> mSportsData;
     private SportsAdapter mAdapter;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        int gridColumnCount = getResources().getInteger(R.integer.grid_column_count);
         mRecycleView = findViewById(R.id.recycleview);
-        mRecycleView.setLayoutManager(new LinearLayoutManager(this));
+        mRecycleView.setLayoutManager(new GridLayoutManager(this, gridColumnCount));
 
         mSportsData = new ArrayList<>();
         mAdapter = new SportsAdapter(this, mSportsData);

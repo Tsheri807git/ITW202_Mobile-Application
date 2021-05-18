@@ -22,7 +22,7 @@
             android:text="@string/title"
             android:padding="8dp"
             android:layout_alignBottom="@+id/sportimages"
-            style="@style/TextAppearance.AppCompat.Headline"/>
+            style="@style/SportsTitle"/>
 
         <TextView
             android:id="@+id/newtitle"
