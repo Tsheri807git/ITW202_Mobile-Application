@@ -5,9 +5,6 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -27,18 +24,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c838b459-01ac-463e-b3d5-5f6662d55477" name="Default Changelist" comment="">
+    <list default="true" id="3e71c3de-0b3a-49be-bf14-6434e28882b1" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../TODO_17/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../TODO_17/app/src/androidTest/java/gcit/edu/todo_17/MainActivityTest_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TODO_17/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO_17/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/amdroid/todo_4/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/amdroid/todo_4/ActivityInputOutputTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TODO_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TODO_4/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO_4/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TODO_4/app/src/androidTest/java/com/amdroid/todo_4/ExampleInstrumentedTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TODO_7" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO_7" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TODO_8" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO_8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TODO_8_ii" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO_8_ii" afterDir="false" />
@@ -54,39 +46,42 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1q3BeonnIQGwYqisBJApWV4u7d0" />
+  <component name="ProjectId" id="1sjpovOXpDlX3fVvGoUquzPAgxS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TODO_20ii" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/TODO_20ii" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="android.template.-1294673147">
-      <recent name="com.amdroid.todo_4" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Android Instrumented Tests.ActivityInputOutputT...">
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="All in TODO_20ii.app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TODO_20ii.app" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -95,7 +90,7 @@
       </method>
     </configuration>
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="TODO_4.app" />
+      <module name="TODO_20ii.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -151,11 +146,11 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivityInputOutputT..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
-      <module name="TODO_4.app" />
+    <configuration name="SpinnerSelectionTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="TODO_20ii.app" />
       <option name="TESTING_TYPE" value="2" />
       <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="com.amdroid.todo_4.ActivityInputOutputTest" />
+      <option name="CLASS_NAME" value="edu.gcit.todo_20ii.SpinnerSelectionTest" />
       <option name="PACKAGE_NAME" value="" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="EXTRA_OPTIONS" value="" />
@@ -204,7 +199,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Android Instrumented Tests.ActivityInputOutputT..." />
+        <item itemvalue="Android Instrumented Tests.SpinnerSelectionTest" />
+        <item itemvalue="Android JUnit.All in TODO_20ii.app" />
       </list>
     </recent_temporary>
   </component>
@@ -213,11 +209,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c838b459-01ac-463e-b3d5-5f6662d55477" name="Default Changelist" comment="" />
-      <created>1616298491417</created>
+      <changelist id="3e71c3de-0b3a-49be-bf14-6434e28882b1" name="Default Changelist" comment="" />
+      <created>1621396031527</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616298491417</updated>
+      <updated>1621396031527</updated>
     </task>
     <servers />
   </component>
@@ -226,103 +222,63 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="false" />
-                </map>
-              </option>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                  <entry key="structure">
-                    <value>
-                      <list>
-                        <option value="dir:/home/tshering/AndroidStudioProjects/TODO_4" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="main" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-        <entry key="Paths">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="dir:/home/tshering/AndroidStudioProjects/TODO_4" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="81" width="374" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1616513984253">
+    <state x="521" y="264" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog" timestamp="1621404778088">
+      <screen x="0" y="23" width="1152" height="643" />
+    </state>
+    <state x="521" y="264" key="#com.google.gct.testrecorder.ui.TestClassNameInputDialog/0.23.1152.643@0.23.1152.643" timestamp="1621404778088" />
+    <state x="466" y="131" width="424" height="491" key="FileChooserDialogImpl" timestamp="1621913394404">
       <screen x="0" y="27" width="1366" height="693" />
     </state>
-    <state x="491" y="81" width="374" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1366.693@0.27.1366.693" timestamp="1616513984253" />
-    <state x="526" y="203" width="356" height="396" key="AndroidCreateXmlResourceDialog" timestamp="1616332387303">
-      <screen x="52" y="27" width="1314" height="741" />
+    <state x="466" y="131" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.693@0.27.1366.693" timestamp="1621913394404" />
+    <state width="1110" height="195" key="GridCell.Tab.0.bottom" timestamp="1621911223879">
+      <screen x="0" y="0" width="1152" height="720" />
     </state>
-    <state x="526" y="203" width="356" height="396" key="AndroidCreateXmlResourceDialog/52.27.1314.741@52.27.1314.741" timestamp="1616332387303" />
-    <state x="466" y="131" width="424" height="491" key="FileChooserDialogImpl" timestamp="1621912555295">
+    <state width="1110" height="195" key="GridCell.Tab.0.bottom/0.0.1152.720@0.0.1152.720" timestamp="1621911223879" />
+    <state width="745" height="153" key="GridCell.Tab.0.bottom/0.23.1152.643@0.23.1152.643" timestamp="1621400790887" />
+    <state width="1110" height="195" key="GridCell.Tab.0.center" timestamp="1621911223875">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state width="1110" height="195" key="GridCell.Tab.0.center/0.0.1152.720@0.0.1152.720" timestamp="1621911223875" />
+    <state width="745" height="153" key="GridCell.Tab.0.center/0.23.1152.643@0.23.1152.643" timestamp="1621400790885" />
+    <state width="1110" height="195" key="GridCell.Tab.0.left" timestamp="1621911223874">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state width="1110" height="195" key="GridCell.Tab.0.left/0.0.1152.720@0.0.1152.720" timestamp="1621911223874" />
+    <state width="745" height="153" key="GridCell.Tab.0.left/0.23.1152.643@0.23.1152.643" timestamp="1621400790885" />
+    <state width="1110" height="195" key="GridCell.Tab.0.right" timestamp="1621911223877">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state width="1110" height="195" key="GridCell.Tab.0.right/0.0.1152.720@0.0.1152.720" timestamp="1621911223877" />
+    <state width="745" height="153" key="GridCell.Tab.0.right/0.23.1152.643@0.23.1152.643" timestamp="1621400790886" />
+    <state width="1110" height="396" key="GridCell.Tab.1.bottom" timestamp="1621520282855">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state width="1110" height="396" key="GridCell.Tab.1.bottom/0.0.1152.720@0.0.1152.720" timestamp="1621520282855" />
+    <state width="1110" height="396" key="GridCell.Tab.1.center" timestamp="1621520282853">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state width="1110" height="396" key="GridCell.Tab.1.center/0.0.1152.720@0.0.1152.720" timestamp="1621520282853" />
+    <state width="1110" height="396" key="GridCell.Tab.1.left" timestamp="1621520282851">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state width="1110" height="396" key="GridCell.Tab.1.left/0.0.1152.720@0.0.1152.720" timestamp="1621520282851" />
+    <state width="1110" height="396" key="GridCell.Tab.1.right" timestamp="1621520282854">
+      <screen x="0" y="0" width="1152" height="720" />
+    </state>
+    <state width="1110" height="396" key="GridCell.Tab.1.right/0.0.1152.720@0.0.1152.720" timestamp="1621520282854" />
+    <state x="172" y="27" width="1012" height="693" key="SettingsEditor" timestamp="1621913315085">
       <screen x="0" y="27" width="1366" height="693" />
     </state>
-    <state x="466" y="131" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.693@0.27.1366.693" timestamp="1621912555295" />
-    <state width="1320" height="185" key="GridCell.Tab.0.bottom" timestamp="1621840662151">
-      <screen x="0" y="27" width="1366" height="693" />
-    </state>
-    <state width="1320" height="185" key="GridCell.Tab.0.bottom/0.27.1366.693@0.27.1366.693" timestamp="1621840662151" />
-    <state width="1268" height="128" key="GridCell.Tab.0.bottom/52.27.1314.741@52.27.1314.741" timestamp="1616336003516" />
-    <state width="1320" height="185" key="GridCell.Tab.0.center" timestamp="1621840662151">
-      <screen x="0" y="27" width="1366" height="693" />
-    </state>
-    <state width="1320" height="185" key="GridCell.Tab.0.center/0.27.1366.693@0.27.1366.693" timestamp="1621840662151" />
-    <state width="1268" height="128" key="GridCell.Tab.0.center/52.27.1314.741@52.27.1314.741" timestamp="1616336003515" />
-    <state width="1320" height="185" key="GridCell.Tab.0.left" timestamp="1621840662150">
-      <screen x="0" y="27" width="1366" height="693" />
-    </state>
-    <state width="1320" height="185" key="GridCell.Tab.0.left/0.27.1366.693@0.27.1366.693" timestamp="1621840662150" />
-    <state width="1268" height="128" key="GridCell.Tab.0.left/52.27.1314.741@52.27.1314.741" timestamp="1616336003514" />
-    <state width="1320" height="185" key="GridCell.Tab.0.right" timestamp="1621840662151">
-      <screen x="0" y="27" width="1366" height="693" />
-    </state>
-    <state width="1320" height="185" key="GridCell.Tab.0.right/0.27.1366.693@0.27.1366.693" timestamp="1621840662151" />
-    <state width="1268" height="128" key="GridCell.Tab.0.right/52.27.1314.741@52.27.1314.741" timestamp="1616336003515" />
-    <state x="198" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1616324435623">
-      <screen x="52" y="27" width="1314" height="741" />
-    </state>
-    <state x="198" y="31" width="1022" height="737" key="SettingsEditor/52.27.1314.741@52.27.1314.741" timestamp="1616324435623" />
-    <state x="466" y="181" width="424" height="391" key="git4idea.history.wholeTree.VcsStructureChooser" timestamp="1616512381858">
-      <screen x="0" y="27" width="1366" height="693" />
-    </state>
-    <state x="466" y="181" width="424" height="391" key="git4idea.history.wholeTree.VcsStructureChooser/0.27.1366.693@0.27.1366.693" timestamp="1616512381858" />
+    <state x="172" y="27" width="1012" height="693" key="SettingsEditor/0.27.1366.693@0.27.1366.693" timestamp="1621913315085" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TODO_20ii$All_in_TODO_20ii_app.ic" NAME="All in TODO_20ii.app Coverage Results" MODIFIED="1621400453086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.amdroid.todo_4;
+package gcit.edu.todo_20iii;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.amdroid.todo_4", appContext.getPackageName());
+        assertEquals("gcit.edu.todo_20iii", appContext.getPackageName());
     }
 }
