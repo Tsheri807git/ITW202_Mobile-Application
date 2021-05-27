@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TODO_22</string>
+    <string name="instruction">"Enter a book name"</string>
+</resources>
