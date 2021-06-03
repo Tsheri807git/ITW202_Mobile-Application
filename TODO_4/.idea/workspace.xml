@@ -28,15 +28,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c838b459-01ac-463e-b3d5-5f6662d55477" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TODO_17/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_17/app/src/androidTest/java/gcit/edu/todo_17/MainActivityTest_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TODO_20ii/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TODO_17/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO_17/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSharedPrefs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSharedPrefs/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSharedPrefs/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSharedPrefs/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSharedPrefs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HelloSharedPrefs/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/amdroid/todo_4/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/amdroid/todo_4/ActivityInputOutputTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TODO_7" beforeDir="false" afterPath="$PROJECT_DIR$/../TODO_7" afterDir="false" />
@@ -78,7 +75,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TODO_20ii" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
